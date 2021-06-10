@@ -15,7 +15,7 @@
         while ($firstNumber <=20){
         ?>  
             <li>
-            <?= ($firstNumber * $secondNumber);
+            <?= ($firstNumber.'x' .$secondNumber. ' = ' .$firstNumber*$secondNumber);
             $firstNumber++;}?>
             </li>
     </ul>
