@@ -14,10 +14,8 @@
         $secondNumber = 48;
         while ($firstNumber <=20){
         ?>  
-            <li>
-            <?= ($firstNumber.'x' .$secondNumber. ' = ' .$firstNumber*$secondNumber);
-            $firstNumber++;}?>
-            </li>
+            <li><?= ($firstNumber.'x' .$secondNumber. ' = ' .$firstNumber*$secondNumber);?></li>
+            <?php $firstNumber++;}?>
     </ul>
 </body>
 </html>
